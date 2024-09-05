@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MERIBA HARDWARE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="main-header">
+        <div class="container">
+            <h1>WELCOME TO MERIBA HARDWARE</h1>
+            <nav>
+                <ul id="nav-menu" class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#products" class="nav-link">Our Products</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <button id="menu-toggle" class="menu-toggle">☰</button>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="home">
+            <div class="section-container">
+                <h2>Home</h2>
+                <p>Welcome to our Hardware! We offer a variety of services and products designed to meet your needs. Our team is dedicated to providing exceptional service and ensuring that our customers are completely satisfied.</p>
+                <p>Whether you're looking for building materials, welding materials, or transport services to your construction sites, you've come to the right place. Explore our website to learn more about what we offer and how we can help you achieve your goals.</p>
+            </div>
+        </section>
+        <section id="products">
+            <div class="section-container">
+                <h2>Our Products</h2>
+                <p>We have all construction materials available: cement, building stones, tubes for welding, painting materials, and plumbing materials.</p>
+                <div class="product-list">
+                    <!-- Cement Product -->
+                    <div class="product-item">
+                        <div class="product-card">
+                            <img src="images/simba-cement.jpg.png" alt="Cement Bag" class="product-image">
+                            <div class="product-info">
+                                <h3>Cement</h3>
+                                <p>High-quality cement suitable for all construction needs.</p>
+                                <p><strong>Price:</strong> Ksh 800 per bag</p>
+                                <button class="buy-button" id="buy-cement">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Additional products can be added here -->
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="section-container">
+                <h2>About Us</h2>
+                <p>We are a team of passionate professionals committed to delivering top-quality products and services. Our mission is to provide the best quality building materials for our customers.</p>
+                <p>With years of experience in the construction industry, we have built a reputation for excellence and reliability. We believe in building strong relationships and exceeding expectations.</p>
+            </div>
+        </section>
+        <!-- Login Section -->
+<section id="login">
+    <div class="login-section-container">
+        <h2>Login</h2>
+        <div class="login-form-container">
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your username" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+
+                <button type="button" class="login-button" onclick="handleLogin()">Login</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+        <section id="contact">
+            <div class="contact-section-container">
+                <h2>Contact Us</h2>
+                <div class="contact-content">
+                    <div class="contact-form-container">
+                        <form id="contact-form" action="https://formspree.io/f/xeojdgpw" method="POST">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+        
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="_replyto" placeholder="Your Email" required>
+                            </div>
+        
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+                            </div>
+        
+                            <button type="submit" class="submit-button">Send Message</button>
+                        </form>
+                    </div>
+        
+                    <div class="contact-info">
+                        <p>If you have any questions or would like to get in touch, please use the contact information below:</p>
+                        <ul>
+                            <li><strong>Email:</strong> <a href="mailto:alkingori@gmail.com">alkingori@gmail.com</a></li>
+                            <li><strong>Phone:</strong> +2547209</li>
+                            <li><strong>Phone:</strong> +25472306</li>
+                            <li><strong>Address:</strong> Thindigua, Kiambu, KENYA</li>
+                        </ul>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <div class="map-container">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.4627803774154!2d36.82264421533459!3d-1.3032050360087807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f17bfe84a91ff%3A0x7db10ddf91d15e0f!2sNairobi!5e0!3m2!1sen!2ske!4v1591984134680!5m2!1sen!2ske" width="100%" height="200" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+           </main>
+    <footer>
+        <p>&copy; 2024 MERIBA HARDWARE. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+            s1.async=true;
+            s1.src='https://embed.tawk.to/66d843ee50c10f7a00a3e415/1i6ucini2';
+            s1.charset='UTF-8';
+            s1.setAttribute('crossorigin','*');
+            s0.parentNode.insertBefore(s1,s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyAXwKkYJVjjmFQ4G67pStYBkhx2snONXD0",
+          authDomain: "meriba-springs-ef903.firebaseapp.com",
+          projectId: "meriba-springs-ef903",
+          storageBucket: "meriba-springs-ef903.appspot.com",
+          messagingSenderId: "233778713406",
+          appId: "1:233778713406:web:3f2df9a8f49cad257ed26f",
+          measurementId: "G-H3LKTX3G0P"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+</body>
+</html>
