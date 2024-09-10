@@ -3,146 +3,418 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MERIBA HARDWARE</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Meriba Springs Hardware</title>
+    <meta name="description" content="Meriba Springs Hardware offers top-quality construction materials and exceptional service. Explore our range of products and get everything you need for your next project.">
+    <link rel="stylesheet" href="styles.css" onerror="alert('WELCOME TO MERIBA SPRINGS Hardware.')">
 </head>
 <body>
-    <header id="main-header">
-        <div class="container">
-            <h1>WELCOME TO MERIBA HARDWARE</h1>
+<!-- Header Section -->
+<header id="main-header">
+    <div class="header-overlay">
+        <div class="header-container">
+            <!-- Centered Logo and Title -->
+            <div class="logo-container">
+                <img src="images/logo.png" alt="Meriba Springs Hardware Logo" class="logo">
+                <h1>Meriba Springs Hardware</h1>
+            </div>
             <nav>
                 <ul id="nav-menu" class="nav-menu">
                     <li><a href="#home" class="nav-link">Home</a></li>
                     <li><a href="#products" class="nav-link">Our Products</a></li>
                     <li><a href="#about" class="nav-link">About</a></li>
                     <li><a href="#contact" class="nav-link">Contact</a></li>
+                    <li><a href="#login" class="nav-link">Login</a></li>
                 </ul>
-                <button id="menu-toggle" class="menu-toggle">☰</button>
+                <button id="menu-toggle" class="menu-toggle" aria-label="Toggle navigation menu">☰</button>
             </nav>
         </div>
-    </header>
+    </div>
+</header>
+
+
+    <!-- Main Content Section -->
     <main>
-        <section id="home">
+        <!-- Home Section -->
+        <section id="home" class="home-section">
             <div class="section-container">
-                <h2>Home</h2>
-                <p>Welcome to our Hardware! We offer a variety of services and products designed to meet your needs. Our team is dedicated to providing exceptional service and ensuring that our customers are completely satisfied.</p>
-                <p>Whether you're looking for building materials, welding materials, or transport services to your construction sites, you've come to the right place. Explore our website to learn more about what we offer and how we can help you achieve your goals.</p>
+                <h2>Welcome to Meriba Springs Hardware</h2>
+                <p>At Meriba Springs Hardware, we provide top-quality construction materials and exceptional service. Explore our range of products and find everything you need for your next project.</p>
             </div>
         </section>
-        <section id="products">
+
+    <!-- Products Section -->
+<section id="products" class="products-section">
+    <div class="section-container">
+        <h2>Our Products</h2>
+        <ul class="product-list">
+            <!-- Product 1 -->
+            <li class="product-item">
+                <button class="product-name" aria-expanded="false">Heavy-Duty Hammer</button>
+                <div class="product-details">
+                    <img src="images/hammer.png" alt="Heavy-duty hammer for construction" class="product-image" loading="lazy">
+                    <p>Durable hammer perfect for heavy-duty tasks.</p>
+                    <p><strong>Price:</strong> Kshs 350</p>
+                    <button class="buy-button" aria-label="Buy Heavy-Duty Hammer">Buy Now</button>
+                </div>
+            </li>
+            <!-- Product 2 -->
+            <li class="product-item">
+                <button class="product-name" aria-expanded="false">Simba Cement</button>
+                <div class="product-details">
+                    <img src="images/simba-cement.png" alt="Simba Cement for building needs" class="product-image" loading="lazy">
+                    <p>High-quality cement for all your building needs.</p>
+                    <p><strong>Price:</strong> Kshs 800</p>
+                    <button class="buy-button" aria-label="Buy Simba Cement">Buy Now</button>
+                </div>
+            </li>
+            <!-- Product 3 -->
+            <li class="product-item">
+                <button class="product-name" aria-expanded="false">Professional Paintbrush</button>
+                <div class="product-details">
+                    <img src="images/paintbrush.png" alt="Professional paintbrush for smooth finish" class="product-image" loading="lazy">
+                    <p>High-quality brush for a smooth finish.</p>
+                    <p><strong>Price:</strong> Kshs 150</p>
+                    <button class="buy-button" aria-label="Buy Professional Paintbrush">Buy Now</button>
+                </div>
+            </li>
+            <!-- Product 4 -->
+            <li class="product-item">
+                <button class="product-name" aria-expanded="false">Concrete Nails (Box)</button>
+                <div class="product-details">
+                    <img src="images/concrete-nails.png" alt="Box of concrete nails" class="product-image" loading="lazy">
+                    <p>Box of sturdy concrete nails for construction.</p>
+                    <p><strong>Price:</strong> Kshs 200</p>
+                    <button class="buy-button" aria-label="Buy Concrete Nails">Buy Now</button>
+                </div>
+            </li>
+            <!-- Product 5 -->
+            <li class="product-item">
+                <button class="product-name" aria-expanded="false">Electric Drill</button>
+                <div class="product-details">
+                    <img src="images/electric-drill.png" alt="Electric drill for drilling tasks" class="product-image" loading="lazy">
+                    <p>Powerful electric drill for all drilling tasks.</p>
+                    <p><strong>Price:</strong> Kshs 3,500</p>
+                    <button class="buy-button" aria-label="Buy Electric Drill">Buy Now</button>
+                </div>
+            </li>
+            <!-- Product 6 -->
+            <li class="product-item">
+                <button class="product-name" aria-expanded="false">Safety Gloves</button>
+                <div class="product-details">
+                    <img src="images/safety-gloves.png" alt="Pair of safety gloves" class="product-image" loading="lazy">
+                    <p>Protective gloves for handling rough materials.</p>
+                    <p><strong>Price:</strong> Kshs 250</p>
+                    <button class="buy-button" aria-label="Buy Safety Gloves">Buy Now</button>
+                </div>
+            </li>
+            <!-- Product 7 -->
+            <li class="product-item">
+                <button class="product-name" aria-expanded="false">Spirit Level</button>
+                <div class="product-details">
+                    <img src="images/spirit-level.png" alt="Spirit level tool" class="product-image" loading="lazy">
+                    <p>High-precision spirit level for accurate leveling.</p>
+                    <p><strong>Price:</strong> Kshs 700</p>
+                    <button class="buy-button" aria-label="Buy Spirit Level">Buy Now</button>
+                </div>
+            </li>
+            <!-- Product 8 -->
+            <li class="product-item">
+                <button class="product-name" aria-expanded="false">Measuring Tape (5m)</button>
+                <div class="product-details">
+                    <img src="images/measuring-tape.png" alt="5-meter measuring tape" class="product-image" loading="lazy">
+                    <p>Durable 5-meter measuring tape for all measurements.</p>
+                    <p><strong>Price:</strong> Kshs 300</p>
+                    <button class="buy-button" aria-label="Buy Measuring Tape">Buy Now</button>
+                </div>
+            </li>
+            <!-- Product 9 -->
+            <li class="product-item">
+                <button class="product-name" aria-expanded="false">Plumbing Wrench</button>
+                <div class="product-details">
+                    <img src="images/plumbing-wrench.png" alt="Heavy-duty plumbing wrench" class="product-image" loading="lazy">
+                    <p>Adjustable wrench for all plumbing needs.</p>
+                    <p><strong>Price:</strong> Kshs 1,200</p>
+                    <button class="buy-button" aria-label="Buy Plumbing Wrench">Buy Now</button>
+                </div>
+            </li>
+            <!-- Product 10 -->
+            <li class="product-item">
+                <button class="product-name" aria-expanded="false">Galvanized Iron Sheets</button>
+                <div class="product-details">
+                    <img src="images/iron-sheets.png" alt="Galvanized iron sheets for roofing" class="product-image" loading="lazy">
+                    <p>Durable iron sheets for roofing and construction.</p>
+                    <p><strong>Price:</strong> Kshs 1,500 per sheet</p>
+                    <button class="buy-button" aria-label="Buy Galvanized Iron Sheets">Buy Now</button>
+                </div>
+            </li>
+            <!-- Product 11 -->
+            <li class="product-item">
+                <button class="product-name" aria-expanded="false">Wall Putty</button>
+                <div class="product-details">
+                    <img src="images/wall-putty.png" alt="Wall putty for smooth walls" class="product-image" loading="lazy">
+                    <p>Smooth finish wall putty for a perfect paint job.</p>
+                    <p><strong>Price:</strong> Kshs 500</p>
+                    <button class="buy-button" aria-label="Buy Wall Putty">Buy Now</button>
+                </div>
+            </li>
+            <!-- Product 12 -->
+            <li class="product-item">
+                <button class="product-name" aria-expanded="false">Wheelbarrow</button>
+                <div class="product-details">
+                    <img src="images/wheelbarrow.png" alt="Heavy-duty wheelbarrow" class="product-image" loading="lazy">
+                    <p>Heavy-duty wheelbarrow for easy material transport.</p>
+                    <p><strong>Price:</strong> Kshs 6,500</p>
+                    <button class="buy-button" aria-label="Buy Wheelbarrow">Buy Now</button>
+                </div>
+            </li>
+            <!-- Product 13 -->
+            <li class="product-item">
+                <button class="product-name" aria-expanded="false">Safety Helmet</button>
+                <div class="product-details">
+                    <img src="images/safety-helmet.png" alt="Construction safety helmet" class="product-image" loading="lazy">
+                    <p>Protective helmet for safety on the construction site.</p>
+                    <p><strong>Price:</strong> Kshs 600</p>
+                    <button class="buy-button" aria-label="Buy Safety Helmet">Buy Now</button>
+                </div>
+            </li>
+            <!-- Product 14 -->
+            <li class="product-item">
+                <button class="product-name" aria-expanded="false">Sandpaper (Pack of 5)</button>
+                <div class="product-details">
+                    <img src="images/sandpaper.png" alt="Pack of sandpapers" class="product-image" loading="lazy">
+                    <p>Pack of 5 sandpapers for smoothening surfaces.</p>
+                    <p><strong>Price:</strong> Kshs 100</p>
+                    <button class="buy-button" aria-label="Buy Sandpaper">Buy Now</button>
+                </div>
+            </li>
+            <!-- Product 15 -->
+            <li class="product-item">
+                <button class="product-name" aria-expanded="false">Steel Trowel</button>
+                <div class="product-details">
+                    <img src="images/steel-trowel.png" alt="Steel trowel for construction work" class="product-image" loading="lazy">
+                    <p>Stainless steel trowel for plastering and masonry.</p>
+                    <p><strong>Price:</strong> Kshs 450</p>
+                    <button class="buy-button" aria-label="Buy Steel Trowel">Buy Now</button>
+                </div>
+            </li>
+            <!-- Product 16 -->
+            <li class="product-item">
+                <button class="product-name" aria-expanded="false">PVC Pipes (Assorted Sizes)</button>
+                <div class="product-details">
+                    <img src="images/pvc-pipes.png" alt="PVC pipes for plumbing" class="product-image" loading="lazy">
+                    <p>Assorted sizes of PVC pipes for plumbing work.</p>
+                    <p><strong>Price:</strong> Kshs 300 - Kshs 1,200</p>
+                    <button class="buy-button" aria-label="Buy PVC Pipes">Buy Now</button>
+                </div>
+            </li>
+            <!-- Product 17 -->
+            <li class="product-item">
+                <button class="product-name" aria-expanded="false">Aluminum Ladder</button>
+                <div class="product-details">
+                    <img src="images/aluminium-ladder.png" alt="Aluminum ladder for easy access" class="product-image" loading="lazy">
+                    <p>Lightweight and sturdy ladder for safe climbing.</p>
+                    <p><strong>Price:</strong> Kshs 4,500</p>
+                    <button class="buy-button" aria-label="Buy Aluminum Ladder">Buy Now</button>
+                </div>
+            </li>
+            <!-- Product 18 -->
+            <li class="product-item">
+                <button class="product-name" aria-expanded="false">Woodworking Chisel Set</button>
+                <div class="product-details">
+                    <img src="images/chisel-set.png" alt="Woodworking chisel set" class="product-image" loading="lazy">
+                    <p>Set of chisels for precision woodworking.</p>
+                    <p><strong>Price:</strong> Kshs 1,500</p>
+                    <button class="buy-button" aria-label="Buy Chisel Set">Buy Now</button>
+                </div>
+            </li>
+            <!-- Product 19 -->
+            <li class="product-item">
+                <button class="product-name" aria-expanded="false">Safety Goggles</button>
+                <div class="product-details">
+                    <img src="images/safety-goggles.png" alt="Protective safety goggles" class="product-image" loading="lazy">
+                    <p>Eye protection goggles for safety on site.</p>
+                    <p><strong>Price:</strong> Kshs 300</p>
+                    <button class="buy-button" aria-label="Buy Safety Goggles">Buy Now</button>
+                </div>
+            </li>
+            <!-- Product 20 -->
+            <li class="product-item">
+                <button class="product-name" aria-expanded="false">Heavy-Duty Wheel Cutter</button>
+                <div class="product-details">
+                    <img src="images/wheel-cutter.png" alt="Heavy-duty wheel cutter" class="product-image" loading="lazy">
+                    <p>Cutting tool for tiles and other hard materials.</p>
+                    <p><strong>Price:</strong> Kshs 3,800</p>
+                    <button class="buy-button" aria-label="Buy Heavy-Duty Wheel Cutter">Buy Now</button>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meriba Springs Hardware</title>
+    <meta name="description" content="Meriba Springs Hardware offers top-quality construction materials and exceptional service. Explore our range of products and get everything you need for your next project.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="main-header">
+        <div class="header-overlay">
+            <div class="header-container">
+                <div class="header-content">
+                    <h1>Welcome to Meriba Springs Hardware</h1>
+                    <nav>
+                        <ul id="nav-menu" class="nav-menu">
+                            <li><a href="#home" class="nav-link">Home</a></li>
+                            <li><a href="#products" class="nav-link" id="products-tab">Our Products</a></li>
+                            <li><a href="#about" class="nav-link">About</a></li>
+                            <li><a href="#contact" class="nav-link">Contact</a></li>
+                            <li><a href="#login" class="nav-link">Login</a></li>
+                        </ul>
+                        <button id="menu-toggle" class="menu-toggle" aria-label="Toggle navigation menu">☰</button>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="home-section">
+            <div class="section-container">
+                <h2>Welcome to Meriba Springs Hardware</h2>
+                <p>At Meriba Springs Hardware, we provide top-quality construction materials and exceptional service. Explore our range of products and find everything you need for your next project.</p>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products" class="products-section">
             <div class="section-container">
                 <h2>Our Products</h2>
-                <p>We have all construction materials available: cement, building stones, tubes for welding, painting materials, and plumbing materials.</p>
-                <div class="product-list">
-                    <!-- Cement Product -->
-                    <div class="product-item">
-                        <div class="product-card">
-                            <img src="images/simba-cement.jpg.png" alt="Cement Bag" class="product-image">
-                            <div class="product-info">
-                                <h3>Cement</h3>
-                                <p>High-quality cement suitable for all construction needs.</p>
-                                <p><strong>Price:</strong> Ksh 800 per bag</p>
-                                <button class="buy-button" id="buy-cement">Buy Now</button>
-                            </div>
+                <ul class="product-list">
+                    <!-- Example Product Items -->
+                    <li class="product-item">
+                        <button class="product-name" aria-expanded="false">Heavy-Duty Hammer</button>
+                        <div class="product-details">
+                            <img src="images/hammer.jpg" alt="Heavy-duty hammer for construction" class="product-image" loading="lazy">
+                            <p>Durable hammer perfect for heavy-duty tasks.</p>
+                            <p><strong>Price:</strong> Kshs 350</p>
+                            <button class="buy-button" aria-label="Buy Heavy-Duty Hammer" data-price="350">Buy Now</button>
                         </div>
-                    </div>
-                    <!-- Additional products can be added here -->
-                </div>
+                    </li>
+                    <!-- More product items here... -->
+                </ul>
             </div>
         </section>
-        <section id="about">
-            <div class="section-container">
-                <h2>About Us</h2>
-                <p>We are a team of passionate professionals committed to delivering top-quality products and services. Our mission is to provide the best quality building materials for our customers.</p>
-                <p>With years of experience in the construction industry, we have built a reputation for excellence and reliability. We believe in building strong relationships and exceeding expectations.</p>
+
+        <!-- Buy Modal -->
+        <div id="buy-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-button" id="close-modal">&times;</span>
+                <h2>Buy Product</h2>
+                <form id="buy-form">
+                    <label for="quantity">Enter Quantity:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+                    <p id="total-price">Total Price: Kshs 0</p>
+                    <button type="submit" class="confirm-button">Confirm Purchase</button>
+                </form>
             </div>
-        </section>
-        <!-- Login Section -->
-<section id="login">
-    <div class="login-section-container">
-        <h2>Login</h2>
-        <div class="login-form-container">
-            <form id="login-form">
-                <div class="form-group">
-                    <label for="username">Username</label>
-                    <input type="text" id="username" name="username" placeholder="Enter your username" required>
-                </div>
+        </div>
 
-                <div class="form-group">
-                    <label for="password">Password</label>
-                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
-                </div>
+        <!-- Other Sections -->
+        <!-- About, Contact, Login, etc. -->
 
-                <button type="button" class="login-button" onclick="handleLogin()">Login</button>
-            </form>
+        <script src="scripts.js"></script>
+    </main>
+</body>
+</html>
+
+
+        
+
+        <!-- Opening Hours Section -->
+<section id="opening-hours" class="opening-hours-section">
+    <div class="section-container">
+        <h2>Opening Days & Hours</h2>
+        <div class="hours-details">
+            <ul class="opening-hours-list">
+                <li><strong>Monday:</strong>    07:30 hrs - 18:00 hrs</li>
+                <li><strong>Tuesday:</strong>   07:30 hrs- 18:00 hrs</li>
+                <li><strong>Wednesday:</strong> 07:30 hrs- 18:00 hrs</li>
+                <li><strong>Thursday:</strong>  07:30 hrs- 18:00 hrs</li>
+                <li><strong>Friday:</strong>    07:30 hrs- 18:00 hrs</li>
+                <li><strong>Saturday:</strong>  07:30 hrs- 18:00 hrs</li>
+                <li><strong>Sunday:</strong>    CLOSED</li>
+            </ul>
         </div>
     </div>
 </section>
 
-        <section id="contact">
-            <div class="contact-section-container">
-                <h2>Contact Us</h2>
-                <div class="contact-content">
-                    <div class="contact-form-container">
-                        <form id="contact-form" action="https://formspree.io/f/xeojdgpw" method="POST">
-                            <div class="form-group">
-                                <label for="name">Name</label>
-                                <input type="text" id="name" name="name" placeholder="Your Name" required>
-                            </div>
-        
-                            <div class="form-group">
-                                <label for="email">Email</label>
-                                <input type="email" id="email" name="_replyto" placeholder="Your Email" required>
-                            </div>
-        
-                            <div class="form-group">
-                                <label for="message">Message</label>
-                                <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
-                            </div>
-        
-                            <button type="submit" class="submit-button">Send Message</button>
-                        </form>
-                    </div>
-        
-                    <div class="contact-info">
-                        <p>If you have any questions or would like to get in touch, please use the contact information below:</p>
-                        <ul>
-                            <li><strong>Email:</strong> <a href="mailto:alkingori@gmail.com">alkingori@gmail.com</a></li>
-                            <li><strong>Phone:</strong> +2547209</li>
-                            <li><strong>Phone:</strong> +25472306</li>
-                            <li><strong>Address:</strong> Thindigua, Kiambu, KENYA</li>
-                        </ul>
-                        <div class="social-icons">
-                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-                            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                        <div class="map-container">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.4627803774154!2d36.82264421533459!3d-1.3032050360087807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f17bfe84a91ff%3A0x7db10ddf91d15e0f!2sNairobi!5e0!3m2!1sen!2ske!4v1591984134680!5m2!1sen!2ske" width="100%" height="200" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                        </div>
-                    </div>
+
+<!-- About Section -->
+<section id="about" class="about-section">
+    <div class="section-container">
+        <h2>About Us</h2>
+        <p>Meriba Springs Hardware has been serving the community with high-quality construction materials and tools for over a decade. Our commitment to excellence and customer satisfaction drives us to provide the best products and services.</p>
+    </div>
+</section>
+
+
+        <!-- Footer Section -->
+        <footer>
+            <p>&copy; 2024 Meriba Springs Hardware. All rights reserved.</p>
+            <!-- Classic Contact Container -->
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>If you have any questions, feel free to reach out to us:</p>
+                <ul>
+                    <li><strong>Email:</strong> <a href="mailto:info@meribasprings.com">info@meribasprings.com</a></li>
+                    <li><strong>Phone:</strong> +254 720 931</li>
+                    <li><strong>Phone:</strong> +254 723 065</li>
+                    <li><strong>Address:</strong> Thindigua, Kiambu Road, Nairobi, Kenya</li>
+                </ul>
+                <div class="social-icons">
+                    <a href="https://facebook.com/meribasprings" class="social-icon" target="_blank" aria-label="Facebook">📘</a>
+                    <a href="https://twitter.com/meribasprings" class="social-icon" target="_blank" aria-label="Twitter">🐦</a>
+                    <a href="https://instagram.com/meribasprings" class="social-icon" target="_blank" aria-label="Instagram">📸</a>
                 </div>
             </div>
-        </section>
-           </main>
-    <footer>
-        <p>&copy; 2024 MERIBA HARDWARE. All rights reserved.</p>
-    </footer>
-    <script src="script.js"></script>
-    <!--Start of Tawk.to Script-->
-    <script type="text/javascript">
-        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-        (function(){
-            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-            s1.async=true;
-            s1.src='https://embed.tawk.to/66d843ee50c10f7a00a3e415/1i6ucini2';
-            s1.charset='UTF-8';
-            s1.setAttribute('crossorigin','*');
-            s0.parentNode.insertBefore(s1,s0);
-        })();
-    </script>
-    <!--End of Tawk.to Script-->
+        </footer>
+
+        <!-- Login Section -->
+<section id="login" class="login-section">
+    <div class="login-container">
+        <h2>Login</h2>
+        <form id="login-form" method="POST" aria-labelledby="login-heading">
+            <div class="form-group">
+                <label for="username" aria-required="true">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password" aria-required="true">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+
+            <button type="submit" class="submit-button">Login</button>
+        </form>
+        <p id="login-message" class="login-message"></p>
+    </div>
+</section>
+
+
+
+
+        
+    </main>
+
+    <script src="scripts.js"></script>
     <script type="module">
         // Import the functions you need from the SDKs you need
         import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js";
@@ -153,13 +425,13 @@
         // Your web app's Firebase configuration
         // For Firebase JS SDK v7.20.0 and later, measurementId is optional
         const firebaseConfig = {
-          apiKey: "AIzaSyAXwKkYJVjjmFQ4G67pStYBkhx2snONXD0",
-          authDomain: "meriba-springs-ef903.firebaseapp.com",
-          projectId: "meriba-springs-ef903",
-          storageBucket: "meriba-springs-ef903.appspot.com",
-          messagingSenderId: "233778713406",
-          appId: "1:233778713406:web:3f2df9a8f49cad257ed26f",
-          measurementId: "G-H3LKTX3G0P"
+          apiKey: "AIzaSyCG6A0PtwnI4JMGeGq-jIM_1KY_bfXw8Iw",
+          authDomain: "springs-website-ddedf.firebaseapp.com",
+          projectId: "springs-website-ddedf",
+          storageBucket: "springs-website-ddedf.appspot.com",
+          messagingSenderId: "648128477831",
+          appId: "1:648128477831:web:4c1cee1ffe778757761622",
+          measurementId: "G-LYMBT15NE3"
         };
       
         // Initialize Firebase
