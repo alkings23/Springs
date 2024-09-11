@@ -103,3 +103,13 @@ function init() {
 
 // Initialize the script after the DOM is fully loaded
 document.addEventListener('DOMContentLoaded', init);
+
+ // Function to Toggle Login Form Visibility
+ function toggleLogin() {
+    const loginContainer = document.getElementById('loginContainer');
+    if (loginContainer.style.display === 'none' || loginContainer.style.display === '') {
+        loginContainer.style.display = 'block'; // Show the login form
+    } else {
+        loginContainer.style.display = 'none'; // Hide the login form
+    }
+}
